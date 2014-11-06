@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>fullmask.js</title>
+</head>
+<style>
+ #content {
+	text-align:center;
+	position: absolute;
+	left:40%;
+	top:40%;
+	font-size:80px; 
+  } 
+</style>
+<body>
+<div id="content"><a href="#">页面内容</a></div>
+<script src="./fullmask.js"></script>
+<script>
+  FullMask.show();
+  setTimeout("FullMask.hide()",5000)
+</script>
+</body>
+</html>
